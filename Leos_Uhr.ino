@@ -16,10 +16,11 @@
 
 #include <WiFi.h>
 #include "time.h"
+#include "arduino_secrets.h"
 
 // Deine WLAN Zugangsdaten
-const char* ssid     = "REA_WLAN";
-const char* password = "d3m0nr3a";
+const char* ssid     = SECRET_SSID;
+const char* password = SECRET_PASS;
 
 // NTP Server Einstellungen
 const char* ntpServer = "pool.ntp.org";
